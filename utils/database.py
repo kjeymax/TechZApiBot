@@ -66,7 +66,7 @@ async def broadcast():
                 user_id,
                 f"""**♻️ Domains Changed
 
-api2.techzbots.live""",
+api3.kajmax.workers.dev""",
             )
             print(user_id, "Sent")
         except Exception as e:
