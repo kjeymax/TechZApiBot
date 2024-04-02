@@ -1,6 +1,5 @@
 from pyrogram.types import Message
 from pyrogram import Client, filters, idle
-from pyrogram.client import Client
 import asyncio
 from uvloop import install
 from utils.database import create_newkey, get_apikey, get_user
@@ -15,12 +14,7 @@ app = Client(
 
 
 async def isUserJoined(user):
-    try:
-        chat = await app.get_chat_member("TechZBots", user)
-        chat = await app.get_chat_member("TechZBots_Support", user)
-        return True
-    except:
-        return False
+    return True
 
 
 @app.on_message(filters.command(["start", "help"]) & filters.incoming & filters.private)
