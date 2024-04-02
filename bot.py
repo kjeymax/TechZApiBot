@@ -8,9 +8,9 @@ from contextlib import closing, suppress
 
 app = Client(
     "TechZBot",
-    api_id=2344247,
-    api_hash="853cae451f8091db916cd9ad395bbf12",
-    bot_token="5817679103:AAEhbhsOHZP0giq0gnVFM1g6KyJz0EhbScU",
+    api_id=1733305,
+    api_hash="f423cffca6b5b7247b31b5b0df61f48d",
+    bot_token="7138653357:AAHJaLp61FbNbXkhXwaDCMJ4_FzxGIex8gU",
 )
 
 
